@@ -27,4 +27,13 @@ public class Cachorro extends Animais{
 			System.out.println("Ai Au preguiçoso");
 		}
 	}
+	@Override
+	public boolean som() {
+		if (super.isSom() = true ) {
+			System.out.println("O animal faz AUAU");
+		}
+		else if (super.isSom() = false) {
+			System.out.println("O animal está cansado e não quer fazer sons");
+		}
+	}
 }

@@ -5,7 +5,7 @@ public class Animais {
 	private String nome;
 	private int idade;
 	private boolean som;
-
+	
 	//construtores
 	public Animais(String nome, int idade, boolean som) {
 		super();
@@ -39,6 +39,14 @@ public class Animais {
 		this.som = som;
 	}
 	
-	
+//metodos	
+	public void som() {
+		if (som = true ) {
+			System.out.println("O animal faz ");
+		}
+		else if (som = false) {
+			System.out.println("O animal está cansado e não quer fazer sons");
+		}
+	}
 	
 }

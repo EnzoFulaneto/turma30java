@@ -10,8 +10,5 @@ public class Ex1Teste {
 		System.out.println("O nome do cachorro é "+cachorro1.getNome());
 		System.out.println("O nome do cavalo é "+cavalo1.getNome());
 		System.out.println("O nome da preguiça é "+preguica1.getNome());
-		
-		cachorro1.isCorrer();
 	}
-
 }

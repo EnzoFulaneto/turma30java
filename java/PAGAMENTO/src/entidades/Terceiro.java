@@ -18,10 +18,15 @@ public class Terceiro extends Funcionario {
 	public void setAdicional(double adicional) {
 		this.adicional = adicional;
 	}
-	
-//metodo
-	@Override
-	public void salario () {
-		 salario = getValorPorHora() * getHorasTrabalhadas() + adicional;
+
+	public double getSalario() {
+		return valorPorHora * horasTrabalhadas + adicional;
 	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
 }
+//metodo
+

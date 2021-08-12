@@ -3,8 +3,8 @@ package entidades;
 
 public class Funcionario {
 	private String matricula;
-	private int horasTrabalhadas;
-	private double valorPorHora;
+	protected int horasTrabalhadas;
+	protected double valorPorHora;
 	private double salario;
 	
 //construtores
@@ -40,7 +40,7 @@ public class Funcionario {
 		this.valorPorHora = valorPorHora;
 	}
 	public double getsalario() {
-		return salario;
+		return valorPorHora * horasTrabalhadas;
 	}
 
 	public void setsalario(double salario) {
@@ -48,8 +48,6 @@ public class Funcionario {
 	}
 	
 //metodos	
-	public void salario () {
-		 salario = valorPorHora * horasTrabalhadas;
-	}
+
 }
 
