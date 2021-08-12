@@ -1,6 +1,6 @@
 package Lista2POO;
 
-public class Ex1Teste {
+public class Ex1e2Teste {
 
 	public static void main(String[] args) {
 		Cachorro cachorro1 = new Cachorro("Bilu", 2, true, false);
@@ -9,9 +9,11 @@ public class Ex1Teste {
 		
 		System.out.println("O nome do cachorro é "+cachorro1.getNome());
 		System.out.println("O nome do cavalo é "+cavalo1.getNome());
-		System.out.println("O nome da preguiça é "+preguica1.getNome());
+		System.out.println("O nome da preguiça é "+preguica1.getNome()+"\n");
 	
-		
+		cachorro1.som();
+		cavalo1.correr();
+		preguica1.som();
 		
 	}
 }
