@@ -27,4 +27,14 @@ public class Preguiça extends Animais{
 			System.out.println("Preguiça preguiçosa");
 		}
 	}
+		
+		@Override
+		public void som() {
+			if (isSom() == true ) {
+				System.out.println("O animal faz UUUUU");
+			}
+			else if (isSom() == false) {
+				System.out.println("O animal está cansado e não quer fazer sons");
+			}
+	}
 }

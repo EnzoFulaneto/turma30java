@@ -28,5 +28,14 @@ public class Cavalo extends Animais{
 			System.out.println("pocotó preguiçoso");
 		}
 	}
-
+		
+		@Override
+		public void som() {
+			if (isSom() == true ) {
+				System.out.println("O animal faz POCOTÓ");
+			}
+			else if (isSom() == false) {
+				System.out.println("O animal está cansado e não quer fazer sons");
+			}
+	}
 }

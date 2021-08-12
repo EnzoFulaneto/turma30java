@@ -28,11 +28,11 @@ public class Cachorro extends Animais{
 		}
 	}
 	@Override
-	public boolean som() {
-		if (super.isSom() = true ) {
+	public void som() {
+		if (isSom() == true ) {
 			System.out.println("O animal faz AUAU");
 		}
-		else if (super.isSom() = false) {
+		else if (isSom() == false) {
 			System.out.println("O animal está cansado e não quer fazer sons");
 		}
 	}

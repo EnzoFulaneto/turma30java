@@ -4,7 +4,7 @@ public class Animais {
 
 	private String nome;
 	private int idade;
-	private boolean som;
+	protected boolean som;
 	
 	//construtores
 	public Animais(String nome, int idade, boolean som) {
