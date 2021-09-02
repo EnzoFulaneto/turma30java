@@ -8,10 +8,10 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.MLDG</groupId>
-	<artifactId>MinhaLojaDeGames</artifactId>
+	<groupId>org.generation</groupId>
+	<artifactId>minhaLojaDeGames</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MinhaLojaDeGames</name>
+	<name>minhaLojaDeGames</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
