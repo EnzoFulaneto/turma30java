@@ -30,7 +30,7 @@ public class Lista3JavaEx4 {
 		else {
 			System.out.println("Insira um valor válido.");
 		}
-		
+	}
 		System.out.println("Qual é seu humor(1-Calma/2-Nervosa/3-Agressiva)? ");
 		mood = leia.nextInt();
 		if (mood == 1) {
@@ -60,21 +60,13 @@ public class Lista3JavaEx4 {
 			calmos18++;
 		}
 		
-	}
+	
 		System.out.println("O número de pessoas calmas é de "+calma);
 		System.out.println("O número de mulheres nervosas é de "+mulherNervosa);
 		System.out.println("O número de homens agressivos é de "+homemAgressivo);
 		System.out.println("O número de outros agressivos é de "+outroCalmo);
 		System.out.println("O número de pessoas nervosas com mais de 40 anos é de "+nervosos40);
 		System.out.println("O número de pessoas calmas com menos de 18 anos é de "+calmos18);
-/*
- * o número de pessoas calmas;
- o número de mulheres nervosas;
- o número de homens agressivos;
- o número de outros calmos;
- o número de pessoas nervosas com mais de 40 anos;
- o número de pessoas calmas com menos de 18 anos.	
- */
 	}
-
 }
+
